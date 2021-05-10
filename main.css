@@ -1,5 +1,9 @@
+
 body{
     background-color: #222;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
 }
 
 div{
@@ -7,8 +11,7 @@ div{
     height: 250px;
     width: 60px;
     position: relative;
-
-}
+  }
 
 
 div::before{
@@ -25,7 +28,7 @@ div::after{
     height: 20px;
     width: 175px;
     position: absolute;
-    content: " ";
+    content: "";
     left: -15px;
     bottom: -10px;
     border-radius: 50%;
